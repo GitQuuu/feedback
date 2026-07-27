@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b7820a9-b5c5-4c1f-9ab0-2b2e91d6e7b5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="19" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000120517385" />
+      <entry key="S2" value="1.0140225027427592" />
+      <entry key="S5" value="1.2663507153166353" />
+      <entry key="S10" value="1.7257511758657138" />
+      <entry key="S30" value="2.4381285648238977" />
+      <entry key="S60" value="2.8881342014391223" />
+      <entry key="M2" value="3.612465625025413" />
+      <entry key="M5" value="5.110809637074285" />
+      <entry key="M10" value="12.250685834229243" />
+      <entry key="M15" value="23.239868298811725" />
+      <entry key="M30" value="50.88033626740644" />
+      <entry key="H1" value="77.9034831479899" />
+      <entry key="H2" value="96.94579679779865" />
+      <entry key="H4" value="108.27079468518309" />
+      <entry key="D1" value="118.77378217592775" />
+      <entry key="W1" value="120.679306179853" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.8645372313078652" />
+      <entry key="MS500" value="0.971605418633817" />
+      <entry key="S2" value="1.194888766295838" />
+      <entry key="S5" value="1.7897755242714504" />
+      <entry key="S10" value="2.2558044691163794" />
+      <entry key="S30" value="2.7122321447087465" />
+      <entry key="S60" value="2.850474355663889" />
+      <entry key="M2" value="2.9237775249212072" />
+      <entry key="M5" value="2.98957308706829" />
+      <entry key="M10" value="3.2702547677148686" />
+      <entry key="M15" value="3.6782699654111966" />
+      <entry key="M30" value="4.654414994607546" />
+      <entry key="H1" value="5.5738903100714525" />
+      <entry key="H2" value="6.208981282479996" />
+      <entry key="H4" value="6.5827992543599585" />
+      <entry key="D1" value="6.927246710229327" />
+      <entry key="W1" value="6.989524969486491" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9332032483320162" />
+      <entry key="MS500" value="1.1625580248919323" />
+      <entry key="S2" value="1.7844535382008755" />
+      <entry key="S5" value="2.764241450018835" />
+      <entry key="S10" value="3.7886270368809094" />
+      <entry key="S30" value="5.070404657296914" />
+      <entry key="S60" value="5.695286446799533" />
+      <entry key="M2" value="6.512396864274425" />
+      <entry key="M5" value="8.089502818928354" />
+      <entry key="M10" value="15.514288950963964" />
+      <entry key="M15" value="26.912622282333526" />
+      <entry key="M30" value="55.53064621757299" />
+      <entry key="H1" value="83.47465749515668" />
+      <entry key="H2" value="103.15318469443999" />
+      <entry key="H4" value="114.85272695119887" />
+      <entry key="D1" value="125.70087349221707" />
+      <entry key="W1" value="127.66880866737593" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3H5JxZbIbGvMnzTGeYqQLHbjoRo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.feedback.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.manage.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "development",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/qu/Documents/_Github/feedback",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "DotEnv.SettingsForm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="feedback" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (PyCharmMiscProject)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c6d794e1806d-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.309" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b7820a9-b5c5-4c1f-9ab0-2b2e91d6e7b5" name="Changes" comment="" />
+      <created>1785152243858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785152243858</updated>
+      <workItem from="1785152244858" duration="578000" />
+      <workItem from="1785152828829" duration="2176000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/feedback$manage.coverage" NAME="manage Coverage Results" MODIFIED="1785153690206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
