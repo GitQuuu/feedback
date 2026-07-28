@@ -37,4 +37,21 @@ class ReviewForm(forms.ModelForm):
     class Meta:
         model = Review
         fields = '__all__'
+        labels = {
+            'username': 'Your name',
+            'review_text': 'Your feedback',
+            'rating': 'Your rating',
+        },
+        error_messages = {
+            'username': {
+                'required': 'Please enter a valid username.',
+                'invalid': 'Please enter a valid username.',
+            },
+            'review_text': {
+                'required': 'Please enter a valid review text.',
+            },
+            'rating': {
+                'required': 'Please enter a valid rating.',
+            }
+        }
 
