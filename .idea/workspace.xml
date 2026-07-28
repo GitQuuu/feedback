@@ -6,19 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="1b7820a9-b5c5-4c1f-9ab0-2b2e91d6e7b5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reviews/templates/reviews/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/templates/reviews/review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="8f63e9c4-979d-422a-a130-a3f32dd23557" value="" />
+    </colors>
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="28" />
+    <option name="cachedIndexableFilesCount" value="29" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -38,61 +43,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.102619693119034" />
-      <entry key="MS500" value="4.706854209525362" />
-      <entry key="S2" value="8.361085233310916" />
-      <entry key="S5" value="10.248127061338268" />
-      <entry key="S10" value="11.064470928857995" />
-      <entry key="S30" value="11.673794055993579" />
-      <entry key="S60" value="11.837175620719126" />
-      <entry key="M2" value="12.122087703140481" />
-      <entry key="M5" value="15.55538456641868" />
-      <entry key="M10" value="22.061820580970718" />
-      <entry key="M15" value="26.732090976202734" />
-      <entry key="M30" value="34.852003912714004" />
-      <entry key="H1" value="48.789284336360915" />
-      <entry key="H2" value="92.97539175040124" />
-      <entry key="H4" value="169.9716215002977" />
-      <entry key="D1" value="322.5201687441358" />
-      <entry key="W1" value="363.57606595740566" />
+      <entry key="MS100" value="1.6397736291463886E-7" />
+      <entry key="MS500" value="0.044434695942322584" />
+      <entry key="S2" value="0.6062603633056688" />
+      <entry key="S5" value="1.1979522131429976" />
+      <entry key="S10" value="1.5637956700651248" />
+      <entry key="S30" value="2.92943786663474" />
+      <entry key="S60" value="5.961101040194572" />
+      <entry key="M2" value="12.072457262156725" />
+      <entry key="M5" value="23.28271806383363" />
+      <entry key="M10" value="33.87314971749264" />
+      <entry key="M15" value="40.495227763226694" />
+      <entry key="M30" value="51.3046315723693" />
+      <entry key="H1" value="66.79283384132431" />
+      <entry key="H2" value="111.38511574950294" />
+      <entry key="H4" value="188.7269290881314" />
+      <entry key="D1" value="342.8315845894731" />
+      <entry key="W1" value="384.4655826886553" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.5497535841246534E-191" />
-      <entry key="S5" value="9.569953421283915E-77" />
-      <entry key="S10" value="1.37403940273133E-38" />
-      <entry key="S30" value="4.2136567420109345E-13" />
-      <entry key="S60" value="1.1602146643083098E-6" />
-      <entry key="M2" value="0.002082189579637046" />
-      <entry key="M5" value="0.1987765265649286" />
-      <entry key="M10" value="0.9904174625889656" />
-      <entry key="M15" value="1.7778720694101027" />
-      <entry key="M30" value="3.4230890965367764" />
-      <entry key="H1" value="5.506367186091007" />
-      <entry key="H2" value="8.97653776820923" />
-      <entry key="H4" value="13.571633507914632" />
-      <entry key="D1" value="21.580893453723068" />
-      <entry key="W1" value="23.632125504658813" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000004697471" />
+      <entry key="S10" value="1.000021708440445" />
+      <entry key="S30" value="1.0311464441489604" />
+      <entry key="S60" value="1.2241193689061032" />
+      <entry key="M2" value="1.6481487409205098" />
+      <entry key="M5" value="2.373342198264373" />
+      <entry key="M10" value="3.324344403340119" />
+      <entry key="M15" value="4.173914451715703" />
+      <entry key="M30" value="5.953220058485247" />
+      <entry key="H1" value="8.165897736570194" />
+      <entry key="H2" value="11.719918896624957" />
+      <entry key="H4" value="16.386351343255818" />
+      <entry key="D1" value="24.53344641128257" />
+      <entry key="W1" value="26.624740513572757" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.0571597401240282" />
-      <entry key="MS500" value="4.6869726732906285" />
-      <entry key="S2" value="8.35172855585428" />
-      <entry key="S5" value="10.24339257951478" />
-      <entry key="S10" value="11.061883949825868" />
-      <entry key="S30" value="11.672876500677635" />
-      <entry key="S60" value="11.836710326929461" />
-      <entry key="M2" value="12.123820459140973" />
-      <entry key="M5" value="15.75067459681082" />
-      <entry key="M10" value="23.0444546589414" />
-      <entry key="M15" value="28.501110504695827" />
-      <entry key="M30" value="38.26720723627021" />
-      <entry key="H1" value="54.28976134514465" />
-      <entry key="H2" value="101.94749266218957" />
-      <entry key="H4" value="183.54009487856445" />
-      <entry key="D1" value="344.1002707043319" />
-      <entry key="W1" value="387.2080688539119" />
+      <entry key="MS100" value="4.5619276623541095E-5" />
+      <entry key="MS500" value="0.14552575704228904" />
+      <entry key="S2" value="1.023188823418257" />
+      <entry key="S5" value="1.8487138051757752" />
+      <entry key="S10" value="2.3564129483144964" />
+      <entry key="S30" value="3.8778796982207258" />
+      <entry key="S60" value="7.1292096731928805" />
+      <entry key="M2" value="13.676930912318278" />
+      <entry key="M5" value="25.627479997510097" />
+      <entry key="M10" value="37.17592664727571" />
+      <entry key="M15" value="44.65071469095317" />
+      <entry key="M30" value="57.2447784310603" />
+      <entry key="H1" value="74.95006827584763" />
+      <entry key="H2" value="123.09915373457221" />
+      <entry key="H4" value="205.10937692089536" />
+      <entry key="D1" value="367.3641099390883" />
+      <entry key="W1" value="411.0901818676314" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -133,7 +138,7 @@
     &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -217,6 +222,8 @@
       <workItem from="1785229223705" duration="101000" />
       <workItem from="1785229481933" duration="4354000" />
       <workItem from="1785234959817" duration="5854000" />
+      <workItem from="1785249318758" duration="1110000" />
+      <workItem from="1785250441799" duration="1836000" />
     </task>
     <servers />
   </component>

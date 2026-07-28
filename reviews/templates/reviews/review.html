@@ -6,7 +6,7 @@
     <title>Your review</title>
 </head>
 <body>
-<form  method="POST" action="/" >
+<form method="POST" action="/" novalidate>
     {% csrf_token %}
     {{ form}}
     <button type="submit">Send</button>
