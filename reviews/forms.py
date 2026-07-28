@@ -36,5 +36,5 @@ from reviews.models import Review
 class ReviewForm(forms.ModelForm):
     class Meta:
         model = Review
-        fields = ['username','review_text', 'review_rating', 'review_date']
+        fields = '__all__'
 
