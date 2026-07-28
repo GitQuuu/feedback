@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b7820a9-b5c5-4c1f-9ab0-2b2e91d6e7b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/feedback.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/feedback.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedback/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedback/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedback/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedback/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/templates/reviews/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/templates/reviews/review.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +18,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="19" />
+    <option name="cachedIndexableFilesCount" value="25" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -38,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.9137618720072287" />
-      <entry key="MS500" value="6.122943545573331" />
-      <entry key="S2" value="12.28347656869358" />
-      <entry key="S5" value="14.832281792768478" />
-      <entry key="S10" value="15.861869650948753" />
-      <entry key="S30" value="16.62628649476509" />
-      <entry key="S60" value="17.273002331635908" />
-      <entry key="M2" value="19.43764409706331" />
-      <entry key="M5" value="25.28411881299846" />
-      <entry key="M10" value="39.16282093776639" />
-      <entry key="M15" value="55.94538664266125" />
-      <entry key="M30" value="100.61344121392796" />
-      <entry key="H1" value="156.86870378590774" />
-      <entry key="H2" value="207.19163146986372" />
-      <entry key="H4" value="242.03615042720202" />
-      <entry key="D1" value="277.9293787638548" />
-      <entry key="W1" value="284.8272039414592" />
+      <entry key="MS100" value="1.0000000000615266" />
+      <entry key="MS500" value="1.0092608622132841" />
+      <entry key="S2" value="1.4342580788496972" />
+      <entry key="S5" value="2.225695052565178" />
+      <entry key="S10" value="3.5240990576106968" />
+      <entry key="S30" value="9.609300216661135" />
+      <entry key="S60" value="14.486248924609024" />
+      <entry key="M2" value="19.53786032307173" />
+      <entry key="M5" value="27.580442263249925" />
+      <entry key="M10" value="42.05717152467724" />
+      <entry key="M15" value="58.94505177440479" />
+      <entry key="M30" value="103.82001707266929" />
+      <entry key="H1" value="160.47187099075492" />
+      <entry key="H2" value="211.2692597204685" />
+      <entry key="H4" value="246.4973683277063" />
+      <entry key="D1" value="282.8262523552809" />
+      <entry key="W1" value="289.81210554252254" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.3307266327570882E-150" />
-      <entry key="S5" value="1.1210772499814792E-60" />
-      <entry key="S10" value="1.0588093548800358E-30" />
-      <entry key="S30" value="1.0192353796405693E-10" />
-      <entry key="S60" value="1.0131589761609163E-5" />
-      <entry key="M2" value="0.003503800141285214" />
-      <entry key="M5" value="0.17854360056674634" />
-      <entry key="M10" value="0.8424225150024232" />
-      <entry key="M15" value="1.5565638377624582" />
-      <entry key="M30" value="3.410113000556045" />
-      <entry key="H1" value="5.743672891543725" />
-      <entry key="H2" value="7.810760814992677" />
-      <entry key="H4" value="9.22788618004142" />
-      <entry key="D1" value="10.675953760972991" />
-      <entry key="W1" value="10.952944938890543" />
+      <entry key="S2" value="1.5803136216386823E-157" />
+      <entry key="S5" value="1.9032564638560707E-63" />
+      <entry key="S10" value="4.3626327645769916E-32" />
+      <entry key="S30" value="3.520341424668376E-11" />
+      <entry key="S60" value="5.95432785969229E-6" />
+      <entry key="M2" value="0.002686067361254516" />
+      <entry key="M5" value="0.16053706479134838" />
+      <entry key="M10" value="0.7988136552756503" />
+      <entry key="M15" value="1.5023713042631193" />
+      <entry key="M30" value="3.3502247447070648" />
+      <entry key="H1" value="5.6930144244529775" />
+      <entry key="H2" value="7.776239567831986" />
+      <entry key="H4" value="9.20747133760384" />
+      <entry key="D1" value="10.67201372739516" />
+      <entry key="W1" value="10.95236738195327" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.8760887770270427" />
-      <entry key="MS500" value="6.099675025709815" />
-      <entry key="S2" value="12.271275777008286" />
-      <entry key="S5" value="14.826300098964005" />
-      <entry key="S10" value="15.858653907829325" />
-      <entry key="S30" value="16.62511270169037" />
-      <entry key="S60" value="17.272030884725122" />
-      <entry key="M2" value="19.439775062062196" />
-      <entry key="M5" value="25.460125629629637" />
-      <entry key="M10" value="40.00125544591506" />
-      <entry key="M15" value="57.49749863009206" />
-      <entry key="M30" value="104.01914487277031" />
-      <entry key="H1" value="162.60880651979195" />
-      <entry key="H2" value="214.99998909646905" />
-      <entry key="H4" value="251.26261933818517" />
-      <entry key="D1" value="288.60505909907783" />
-      <entry key="W1" value="295.7801087952054" />
+      <entry key="MS100" value="7.00942194461878E-10" />
+      <entry key="MS500" value="0.016276612644394495" />
+      <entry key="S2" value="0.6269879552387024" />
+      <entry key="S5" value="1.6789969910769798" />
+      <entry key="S10" value="3.1653906680525377" />
+      <entry key="S30" value="9.457358582874244" />
+      <entry key="S60" value="14.404418255173093" />
+      <entry key="M2" value="19.497328237253214" />
+      <entry key="M5" value="27.72143928235337" />
+      <entry key="M10" value="42.8435064116137" />
+      <entry key="M15" value="60.43731288278767" />
+      <entry key="M30" value="107.16299559894316" />
+      <entry key="H1" value="166.15988767013593" />
+      <entry key="H2" value="219.04237670263902" />
+      <entry key="H4" value="255.70306040202556" />
+      <entry key="D1" value="293.49793188617207" />
+      <entry key="W1" value="300.7644241450836" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -123,8 +123,9 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "development",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/qu/Documents/_Github/feedback",
+    "last_opened_file_path": "C:/Users/Quanv/Documents/_Github/feedback",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -132,8 +133,9 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "DotEnv.SettingsForm",
-    "to.speed.mode.migration.done": "true"
+    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Django Server.Dev">
@@ -146,7 +148,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="~/Documents/_Github/feedback/.venv" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -173,7 +174,7 @@
         <env name="DJANGO_SETTINGS_MODULE" value="feedback.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="~/Documents/_Github/feedback/.venv" />
+      <option name="SDK_NAME" value="Python 3.14 (my_site) (6)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -199,7 +200,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c6d794e1806d-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.309" />
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
       </set>
     </attachedChunks>
   </component>
@@ -212,6 +213,8 @@
       <updated>1785152243858</updated>
       <workItem from="1785152244858" duration="578000" />
       <workItem from="1785152828829" duration="2228000" />
+      <workItem from="1785229223705" duration="101000" />
+      <workItem from="1785229481933" duration="363000" />
     </task>
     <servers />
   </component>
