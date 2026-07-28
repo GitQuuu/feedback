@@ -11,4 +11,23 @@ class ReviewForm(forms.Form):
             'min_length': 'Please enter a username greater than 2.',
         },
     )
+    review_text = forms.CharField(
+        max_length=500,
+        widget=forms.Textarea,
+        label="Your review",
+        error_messages={
+            'required': 'Please enter a review.',
+            'max_length': 'Please enter a review.',
+        }
+    )
+    rating = forms.IntegerField(
+        widget=forms.NumberInput(
+            attrs={
+                'class': 'form-control',
+            }
+        ),
+        error_messages={
+            'required': 'Please enter a review.',
+        }
+    )
 
