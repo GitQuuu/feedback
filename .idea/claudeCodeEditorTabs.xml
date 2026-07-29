@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ClaudeCodeEditorTabs">
-    <option name="activeSessionId" value="ed10cc06-bddf-40ea-9fb4-0f12fd49253f" />
+    <option name="activeSessionId" value="2723a3bf-5feb-435e-b6c8-4c1934783433" />
     <option name="openSessionIds">
       <list>
         <option value="ed10cc06-bddf-40ea-9fb4-0f12fd49253f" />
+        <option value="2723a3bf-5feb-435e-b6c8-4c1934783433" />
       </list>
     </option>
     <option name="sessionPaths">
       <map>
+        <entry key="2723a3bf-5feb-435e-b6c8-4c1934783433" value="/sessions/295b1dea-9f38-4c97-beb3-f2eabb0c9be0" />
         <entry key="ed10cc06-bddf-40ea-9fb4-0f12fd49253f" value="/sessions/new" />
       </map>
     </option>
     <option name="sessionTitles">
       <map>
+        <entry key="2723a3bf-5feb-435e-b6c8-4c1934783433" value="@reviews/templates/reviews/review_list.html i don" />
         <entry key="ed10cc06-bddf-40ea-9fb4-0f12fd49253f" value="Claude Code" />
       </map>
     </option>
