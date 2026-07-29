@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b7820a9-b5c5-4c1f-9ab0-2b2e91d6e7b5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/feedback.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/feedback.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/templates/reviews/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/templates/reviews/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/templates/reviews/thank_you.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/templates/reviews/thank_you.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="35" />
+    <option name="cachedIndexableFilesCount" value="37" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -45,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000965454" />
-      <entry key="MS500" value="1.0102899247102564" />
-      <entry key="S2" value="1.480709303976497" />
-      <entry key="S5" value="2.3199611186984557" />
-      <entry key="S10" value="2.9536183216863083" />
-      <entry key="S30" value="3.671636361798541" />
-      <entry key="S60" value="4.323467241097398" />
-      <entry key="M2" value="5.726722540132203" />
-      <entry key="M5" value="10.164104509104497" />
-      <entry key="M10" value="20.55532536537631" />
-      <entry key="M15" value="34.93334710106118" />
-      <entry key="M30" value="79.73069675554656" />
-      <entry key="H1" value="143.6529376838912" />
-      <entry key="H2" value="224.2910902847811" />
-      <entry key="H4" value="329.2830540403437" />
-      <entry key="D1" value="545.9293432424984" />
-      <entry key="W1" value="608.4921403516128" />
+      <entry key="MS100" value="1.7291126661040387E-83" />
+      <entry key="MS500" value="2.8053331120795904E-17" />
+      <entry key="S2" value="1.0798533673149241E-4" />
+      <entry key="S5" value="0.06445411894950226" />
+      <entry key="S10" value="0.6065964057689368" />
+      <entry key="S30" value="2.781018229490907" />
+      <entry key="S60" value="4.082650861988141" />
+      <entry key="M2" value="5.005961345630625" />
+      <entry key="M5" value="7.54995766750432" />
+      <entry key="M10" value="15.020876193573343" />
+      <entry key="M15" value="25.740293320990332" />
+      <entry key="M30" value="65.04879188828936" />
+      <entry key="H1" value="130.55354234876577" />
+      <entry key="H2" value="217.06828640701391" />
+      <entry key="H4" value="328.25158030640506" />
+      <entry key="D1" value="557.8885188081593" />
+      <entry key="W1" value="624.6877492904526" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.6923780630047704E-41" />
-      <entry key="MS500" value="7.009700741721594E-9" />
-      <entry key="S2" value="0.00915007954077195" />
-      <entry key="S5" value="0.15295720830484522" />
-      <entry key="S10" value="0.39112580748198217" />
-      <entry key="S30" value="0.8058791507631279" />
-      <entry key="S60" value="1.3993788080950995" />
-      <entry key="M2" value="2.3998709867135286" />
-      <entry key="M5" value="3.7257827288681913" />
-      <entry key="M10" value="4.697197324608631" />
-      <entry key="M15" value="5.5740799322138965" />
-      <entry key="M30" value="9.119667721041223" />
-      <entry key="H1" value="16.379404744086855" />
-      <entry key="H2" value="26.00701092803074" />
-      <entry key="H4" value="36.01627694399647" />
-      <entry key="D1" value="52.1264950131926" />
-      <entry key="W1" value="56.25619423280259" />
+      <entry key="MS100" value="1.000000000485436" />
+      <entry key="MS500" value="1.0137159655876486" />
+      <entry key="S2" value="1.3422209532729596" />
+      <entry key="S5" value="1.6512123657303148" />
+      <entry key="S10" value="1.8069773018680977" />
+      <entry key="S30" value="1.931008776652877" />
+      <entry key="S60" value="1.9650672130271978" />
+      <entry key="M2" value="2.025600230298611" />
+      <entry key="M5" value="3.3456620264512216" />
+      <entry key="M10" value="6.54348037340573" />
+      <entry key="M15" value="9.077315619030806" />
+      <entry key="M30" value="14.780819180908598" />
+      <entry key="H1" value="23.462147190548134" />
+      <entry key="H2" value="34.42269907644163" />
+      <entry key="H4" value="45.64385339182643" />
+      <entry key="D1" value="63.57600870068305" />
+      <entry key="W1" value="68.17187461064488" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659363290174582" />
-      <entry key="MS500" value="1.0032986738370973" />
-      <entry key="S2" value="1.484459916425767" />
-      <entry key="S5" value="2.4503724365266066" />
-      <entry key="S10" value="3.3159509215666723" />
-      <entry key="S30" value="4.457327406756951" />
-      <entry key="S60" value="5.703459754603073" />
-      <entry key="M2" value="8.101713148101354" />
-      <entry key="M5" value="13.859540624346419" />
-      <entry key="M10" value="25.224304467708215" />
-      <entry key="M15" value="40.48138916276551" />
-      <entry key="M30" value="88.82782277507087" />
-      <entry key="H1" value="160.01369459762824" />
-      <entry key="H2" value="250.28433410335893" />
-      <entry key="H4" value="365.29024881521735" />
-      <entry key="D1" value="598.0537585777432" />
-      <entry key="W1" value="664.7480172203962" />
+      <entry key="MS100" value="1.545113029749462E-4" />
+      <entry key="MS500" value="0.17346597156188123" />
+      <entry key="S2" value="0.7992505902221226" />
+      <entry key="S5" value="1.374721989727928" />
+      <entry key="S10" value="2.2000322594781494" />
+      <entry key="S30" value="4.6184848575588475" />
+      <entry key="S60" value="5.995674521518994" />
+      <entry key="M2" value="7.003589777254823" />
+      <entry key="M5" value="10.879136276750197" />
+      <entry key="M10" value="21.546721577226187" />
+      <entry key="M15" value="34.79878253559785" />
+      <entry key="M30" value="79.81014583604475" />
+      <entry key="H1" value="153.99794560806825" />
+      <entry key="H2" value="251.4771771515664" />
+      <entry key="H4" value="373.88607752856797" />
+      <entry key="D1" value="621.4623370414564" />
+      <entry key="W1" value="692.8592883408039" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -141,7 +143,7 @@
     &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -227,7 +229,9 @@
       <workItem from="1785249318758" duration="1110000" />
       <workItem from="1785250441799" duration="3398000" />
       <workItem from="1785276306244" duration="6980000" />
-      <workItem from="1785315025665" duration="387000" />
+      <workItem from="1785315025665" duration="1471000" />
+      <workItem from="1785325704912" duration="3945000" />
+      <workItem from="1785330858709" duration="662000" />
     </task>
     <servers />
   </component>

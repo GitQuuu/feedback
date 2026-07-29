@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClaudeCodeEditorTabs">
+    <option name="activeSessionId" value="ed10cc06-bddf-40ea-9fb4-0f12fd49253f" />
+    <option name="openSessionIds">
+      <list>
+        <option value="ed10cc06-bddf-40ea-9fb4-0f12fd49253f" />
+      </list>
+    </option>
+    <option name="sessionPaths">
+      <map>
+        <entry key="ed10cc06-bddf-40ea-9fb4-0f12fd49253f" value="/sessions/new" />
+      </map>
+    </option>
+    <option name="sessionTitles">
+      <map>
+        <entry key="ed10cc06-bddf-40ea-9fb4-0f12fd49253f" value="Claude Code" />
+      </map>
+    </option>
+  </component>
+</project>
