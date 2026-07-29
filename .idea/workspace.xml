@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b7820a9-b5c5-4c1f-9ab0-2b2e91d6e7b5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/reviews/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/feedback.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/feedback.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,15 +24,15 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="34" />
+    <option name="cachedIndexableFilesCount" value="35" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.517083841033764E-121" />
-      <entry key="S2" value="6.434589250919563E-31" />
-      <entry key="S5" value="1.0359692745581869E-12" />
-      <entry key="S10" value="1.4185666387849395E-6" />
-      <entry key="S30" value="0.025620978211549357" />
-      <entry key="S60" value="0.3892037784843402" />
-      <entry key="M2" value="1.7435619971001697" />
-      <entry key="M5" value="6.189072806285566" />
-      <entry key="M10" value="17.237257130670482" />
-      <entry key="M15" value="32.37812524997691" />
-      <entry key="M30" value="78.00154674182434" />
-      <entry key="H1" value="141.43512536049383" />
-      <entry key="H2" value="221.03254765878665" />
-      <entry key="H4" value="325.0343728052848" />
-      <entry key="D1" value="539.6907722050572" />
-      <entry key="W1" value="601.6134041443041" />
+      <entry key="MS100" value="1.0000000000965454" />
+      <entry key="MS500" value="1.0102899247102564" />
+      <entry key="S2" value="1.480709303976497" />
+      <entry key="S5" value="2.3199611186984557" />
+      <entry key="S10" value="2.9536183216863083" />
+      <entry key="S30" value="3.671636361798541" />
+      <entry key="S60" value="4.323467241097398" />
+      <entry key="M2" value="5.726722540132203" />
+      <entry key="M5" value="10.164104509104497" />
+      <entry key="M10" value="20.55532536537631" />
+      <entry key="M15" value="34.93334710106118" />
+      <entry key="M30" value="79.73069675554656" />
+      <entry key="H1" value="143.6529376838912" />
+      <entry key="H2" value="224.2910902847811" />
+      <entry key="H4" value="329.2830540403437" />
+      <entry key="D1" value="545.9293432424984" />
+      <entry key="W1" value="608.4921403516128" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0001086518229068" />
-      <entry key="S2" value="1.1020961238887528" />
-      <entry key="S5" value="1.4014243397307027" />
-      <entry key="S10" value="1.6335805708279751" />
-      <entry key="S30" value="1.8588828883481394" />
-      <entry key="S60" value="1.9267668929194064" />
-      <entry key="M2" value="1.9654553656714184" />
-      <entry key="M5" value="2.0957720212819657" />
-      <entry key="M10" value="2.527501337286487" />
-      <entry key="M15" value="3.2346007764779774" />
-      <entry key="M30" value="6.685710595124651" />
-      <entry key="H1" value="13.90644568050851" />
-      <entry key="H2" value="23.431923933686384" />
-      <entry key="H4" value="33.31253530003075" />
-      <entry key="D1" value="49.19833959543156" />
-      <entry key="W1" value="53.2672802069787" />
+      <entry key="MS100" value="1.6923780630047704E-41" />
+      <entry key="MS500" value="7.009700741721594E-9" />
+      <entry key="S2" value="0.00915007954077195" />
+      <entry key="S5" value="0.15295720830484522" />
+      <entry key="S10" value="0.39112580748198217" />
+      <entry key="S30" value="0.8058791507631279" />
+      <entry key="S60" value="1.3993788080950995" />
+      <entry key="M2" value="2.3998709867135286" />
+      <entry key="M5" value="3.7257827288681913" />
+      <entry key="M10" value="4.697197324608631" />
+      <entry key="M15" value="5.5740799322138965" />
+      <entry key="M30" value="9.119667721041223" />
+      <entry key="H1" value="16.379404744086855" />
+      <entry key="H2" value="26.00701092803074" />
+      <entry key="H4" value="36.01627694399647" />
+      <entry key="D1" value="52.1264950131926" />
+      <entry key="W1" value="56.25619423280259" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.782325671811166E-4" />
-      <entry key="MS500" value="0.2167533598372426" />
-      <entry key="S2" value="0.7483053227188684" />
-      <entry key="S5" value="1.1953438371077205" />
-      <entry key="S10" value="1.5070303144335293" />
-      <entry key="S30" value="1.8338106153506486" />
-      <entry key="S60" value="2.2805134930550093" />
-      <entry key="M2" value="3.6712587835365937" />
-      <entry key="M5" value="8.248795575100017" />
-      <entry key="M10" value="19.734601801865285" />
-      <entry key="M15" value="35.58578974902019" />
-      <entry key="M30" value="84.6645431738213" />
-      <entry key="H1" value="155.3229764414739" />
-      <entry key="H2" value="244.45081496768876" />
-      <entry key="H4" value="358.33792087738675" />
-      <entry key="D1" value="588.8870577719791" />
-      <entry key="W1" value="654.8803710038619" />
+      <entry key="MS100" value="0.9659363290174582" />
+      <entry key="MS500" value="1.0032986738370973" />
+      <entry key="S2" value="1.484459916425767" />
+      <entry key="S5" value="2.4503724365266066" />
+      <entry key="S10" value="3.3159509215666723" />
+      <entry key="S30" value="4.457327406756951" />
+      <entry key="S60" value="5.703459754603073" />
+      <entry key="M2" value="8.101713148101354" />
+      <entry key="M5" value="13.859540624346419" />
+      <entry key="M10" value="25.224304467708215" />
+      <entry key="M15" value="40.48138916276551" />
+      <entry key="M30" value="88.82782277507087" />
+      <entry key="H1" value="160.01369459762824" />
+      <entry key="H2" value="250.28433410335893" />
+      <entry key="H4" value="365.29024881521735" />
+      <entry key="D1" value="598.0537585777432" />
+      <entry key="W1" value="664.7480172203962" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -108,41 +111,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.Dev.executor": "Debug",
-    "Django Server.dev.executor": "Debug",
-    "Django Server.feedback.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Dev.executor": "Debug",
-    "Python.manage.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "development",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Quanv/Documents/_Github/feedback",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.Dev.executor&quot;: &quot;Debug&quot;,
+    &quot;Django Server.dev.executor&quot;: &quot;Debug&quot;,
+    &quot;Django Server.feedback.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Dev.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Quanv/Documents/_Github/feedback&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Django Server.Dev">
     <configuration name="Dev" type="PythonConfigurationType" factoryName="Python">
       <module name="feedback" />
@@ -179,8 +182,8 @@
         <env name="DJANGO_SETTINGS_MODULE" value="feedback.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.14 (my_site) (6)" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_NAME" value="~/Documents/_Github/feedback/.venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -205,8 +208,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.8665.369" />
-        <option value="bundled-python-sdk-6fa658e1df1a-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.369" />
+        <option value="bundled-python-sdk-c6d794e1806d-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.309" />
       </set>
     </attachedChunks>
   </component>
@@ -225,6 +227,7 @@
       <workItem from="1785249318758" duration="1110000" />
       <workItem from="1785250441799" duration="3398000" />
       <workItem from="1785276306244" duration="6980000" />
+      <workItem from="1785315025665" duration="387000" />
     </task>
     <servers />
   </component>
