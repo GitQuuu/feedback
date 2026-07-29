@@ -6,9 +6,7 @@ from . forms import ReviewForm
 def review(request):
 
     if request.method == 'POST':
-        from reviews.models import Review
-        existing_data = Review.objects.get(pk=1)
-        form = ReviewForm(request.POST, instance=existing_data)
+        form = ReviewForm(request.POST)
 
         if form.is_valid():
             form.save()
