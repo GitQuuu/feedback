@@ -6,18 +6,12 @@ from . forms import ReviewForm
 def review(request):
 
     if request.method == 'POST':
-        form = ReviewForm(request.POST)
+        from reviews.models import Review
+        existing_data = Review.objects.get(pk=1)
+        form = ReviewForm(request.POST, instance=existing_data)
 
         if form.is_valid():
-            from reviews.models import Review
-            review = Review(
-                username=form.cleaned_data['username'],
-                review_text=form.cleaned_data['review_text'],
-                rating=form.cleaned_data['rating'],
-            )
-            review.save()
-            print(form.cleaned_data)
-            print(review)
+            form.save()
             return HttpResponseRedirect('/thank-you')
     else:
         form = ReviewForm()
