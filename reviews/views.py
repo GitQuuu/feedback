@@ -29,3 +29,7 @@ class ReviewView(View):
 
 class ThankYouView(TemplateView):
    template_name = "reviews/thank_you.html"
+   def get_context_data(self, **kwargs):
+       context = super().get_context_data(**kwargs)
+       context['message'] = "Thank you for your review!"
+       return context
