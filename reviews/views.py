@@ -1,10 +1,6 @@
-from django.shortcuts import render
-from django.http import HttpResponseRedirect, HttpResponse
-from django.template import context
-from django.views import View
 from django.views.generic.base import TemplateView
 from django.views.generic.detail import DetailView
-from django.views.generic.edit import FormView
+from django.views.generic.edit import CreateView
 from django.views.generic.list import ListView
 
 from . forms import ReviewForm
@@ -12,14 +8,12 @@ from reviews.models import Review
 
 # Create your views here.
 
-class ReviewView(FormView):
+class ReviewView(CreateView):
+    model = Review
     form_class = ReviewForm
     template_name = 'reviews/review.html'
     success_url = '/thank-you'
 
-    def form_valid(self, form):
-        form.save()
-        return super().form_valid(form)
 
 class ThankYouView(TemplateView):
    template_name = "reviews/thank_you.html"
