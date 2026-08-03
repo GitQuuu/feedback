@@ -3,7 +3,8 @@
 {% block title %} <h1>Review by {{ review.username }}</h1> {% endblock %}
 
 {% block content %}
-    <h2>{{ review.review_date }}</h2>
-   <p>{{ review.review_text }}</p>
-   <p>{{ review.rating }}</p>
+    <h1>{{ review.review_date }}</h1>
+    <p>{{ review.review_text }}</p>
+    <p>{{ review.rating }}</p>
+    <button>Favorite</button>
 {% endblock %}
