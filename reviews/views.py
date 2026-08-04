@@ -1,3 +1,5 @@
+from urllib import request
+
 from django.http.response import HttpResponseRedirect
 from django.views.generic.base import TemplateView, View
 from django.views.generic.detail import DetailView
@@ -34,11 +36,19 @@ class ReviewDetailView(DetailView):
     model = Review
     context_object_name = 'review'
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        loaded_review = self.object
+        request = self.request
+        favorite_id = request.session.get('favorite_review') == loaded_review.id
+        context['is_favorite'] = favorite_id == str(loaded_review.id)
+
+        return context
+
 
 class AddFavoriteView(View):
 
     def post (self, request):
         review_id = request.POST.get('review_id')
-        fav_review =Review.objects.filter(pk=review_id).update(is_favorite=True)
-        request.session['favorite_review'] = fav_review
+        request.session['favorite_review'] = review_id
         return HttpResponseRedirect('/reviews/' + review_id)
