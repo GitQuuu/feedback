@@ -40,6 +40,7 @@ class ReviewDetailView(DetailView):
         context = super().get_context_data(**kwargs)
         loaded_review = self.object
         request = self.request
+        #using .get is safer than [] because it returns None if the key doesn't exist'
         favorite_id = request.session.get('favorite_review')
         context['is_favorite'] = favorite_id == str(loaded_review.id)
 
